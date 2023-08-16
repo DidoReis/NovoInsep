@@ -24,7 +24,7 @@ const Modulos = () => {
                                 
                               `}>
                                 <div className="titleBox w-[260px] md:w-[538px] h-[32px] ">
-                                  <h5 className={`${darkTheme ? "text-dark" : "text-light"}
+                                  <h1 className={`${darkTheme ? "text-dark" : "text-light"}
                                                   font-roboto
                                                   text-[24px]
                                                   md:ml-[156px]
@@ -32,7 +32,7 @@ const Modulos = () => {
                                                   font-medium
                                                   leading-[32px]
                                                   
-                                               `}>Conteúdo programático</h5>
+                                               `}>Conteúdo programático</h1>
                                 </div>
                                 
                                 {/* BOX MÓDULOS */}
@@ -165,7 +165,7 @@ const Modulos = () => {
                                                                       gap-[16px]
                                                                       self-stretch
                                                                    `}>
-                                                          <img src={darkTheme ? CheckDark : CheckLight} />
+                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                           <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -190,7 +190,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -216,7 +216,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -241,7 +241,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -266,7 +266,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -398,7 +398,7 @@ const Modulos = () => {
                                                                       gap-[16px]
                                                                       self-stretch
                                                                    `}>
-                                                          <img src={darkTheme ? CheckDark : CheckLight} />
+                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                           <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -423,7 +423,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -448,7 +448,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -473,7 +473,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -498,7 +498,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -631,7 +631,7 @@ const Modulos = () => {
                                                                       gap-[16px]
                                                                       self-stretch
                                                                    `}>
-                                                          <img src={darkTheme ? CheckDark : CheckLight} />
+                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                           <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -658,7 +658,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -683,7 +683,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -708,7 +708,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend
@@ -733,7 +733,7 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
                                                                         font-lexend

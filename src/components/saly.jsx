@@ -29,7 +29,7 @@ const Saly = () => {
                                 justify-center
                                 items-center
                                 flex-shrink-0">
-                                    <img src={SalyImg} alt="Saly image - Uma mulher sentada em um foguete" />
+                                    <img src={SalyImg} alt="Ilustração de uma mulher sobre um foguete." />
                 </div>
                 <div className="h-[280px] flex ">
                     <p className={`${darkTheme ? "text-dark" : "text-light"}

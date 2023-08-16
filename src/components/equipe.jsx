@@ -32,7 +32,7 @@ const Equipe = () => {
                                     h-[auto]
                                     flex-shrink-0
                                     
-                               `}
+                               ` } aria-label="Seção Equipe Insep"
         >
           <div className="TitleBox w-[318.36017px] ">
             <h2

@@ -24,7 +24,7 @@ const Hero = () => {
                             md:flex
                             md:flex-row-reverse
                            `}>
-                            <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 absolute">
+                            <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 md:absolute">
                             <a target='blank' href="https://web.whatsapp.com/"><img src={WhatsApp} alt="Icone do WhatsApp" /></a>
                 </div>
                 <div className="bomImg 
@@ -34,7 +34,7 @@ const Hero = () => {
                   <img className='w-[357px] md:w-[943px]
                                   h-[278px] md:h-[732px]
                                   
-                                  md:bt-0' src={Cover} alt="" />
+                                  md:bt-0' src={Cover} alt="Ilustração representando pessoas interagindo em ambiente digital" />
                                   
                 </div>
                 
