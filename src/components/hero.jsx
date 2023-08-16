@@ -24,8 +24,8 @@ const Hero = () => {
                             md:flex
                             md:flex-row-reverse
                            `}>
-                            <div className="whatsappIcon w-12 h-12  md:mt-[35px] ml-[315px] mt:0 md:mr-8 absolute">
-                  <a target='blank' href="#"><img src={Libras} alt="Icone do VLibras" /></a>
+                            <div className="whatsappIcon w-10 h-10  md:mt-[35px] ml-[318px] mt:0 md:mr-8 absolute">
+                            <a target='blank' href="https://web.whatsapp.com/"><img src={WhatsApp} alt="Icone do WhatsApp" /></a>
                 </div>
                 <div className="bomImg 
                                 w-[357px] md:w-[943px]
@@ -35,11 +35,10 @@ const Hero = () => {
                                   h-[278px] md:h-[732px]
                                   
                                   md:bt-0' src={Cover} alt="" />
+                                  
                 </div>
                 
-                <div className="whatsappIcon w-12 h-12 invisible md:visible mt-[446px] mr-8 absolute">
-                  <a target='blank' href="https://web.whatsapp.com/"><img src={WhatsApp} alt="Icone do WhatsApp" /></a>
-                </div>
+                
             <div className={`titleHero ${darkTheme ? "text-dark" : "text-light"}
                             w-[359px] md:w-[439px]
                             h-[356px]
