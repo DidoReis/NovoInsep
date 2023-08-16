@@ -22,3 +22,10 @@
   transition: fill 0.3s; /* Adicione uma transição suave */
 }
 
+.access-button {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-right: 25px;
+  margin-bottom: 100px;
+}

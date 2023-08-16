@@ -71,14 +71,15 @@ module.exports = {
         addUtilities(newUtilities)
       }
     ],
-   /*  screens: {
-      xs: "480px",
+     screens: {
+      xxs: "320px",
+      xs: "414px",
       ss: "620px",
       sm: "768px",
       md: "1060px",
       lg: "1200px",
       xl: "1700px",
-    }, */
+    }, 
   },
   plugins: [],
 };

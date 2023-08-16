@@ -22,7 +22,7 @@ function App() {
    
    <main className= {`${darkTheme ? "bg-dark-primary" : "bg-light-primary"} w-full overflow-hidden`}>
     <Navbar/>
-    <VLibras forceOnload={true}/>
+    <VLibras  forceOnload={true}/>
     <Hero/>
     <Beneficios/>
     <Saly />

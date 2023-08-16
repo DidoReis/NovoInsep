@@ -4,7 +4,7 @@ import React from 'react'
 import styles from '../styles'
 import {  useSelector } from 'react-redux'
 import Cover from "../assets/Cover.png"
-import Libras from "../assets/libras.png"
+
 import Smile from "../assets/smile.png"
 import SmileLight from "../assets/smileLight.png"
 import WhatsApp from "../assets/whatsapp.svg"
@@ -24,7 +24,7 @@ const Hero = () => {
                             md:flex
                             md:flex-row-reverse
                            `}>
-                            <div className="whatsappIcon w-10 h-10  md:mt-[35px] ml-[318px] mt:0 md:mr-8 absolute">
+                            <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 absolute">
                             <a target='blank' href="https://web.whatsapp.com/"><img src={WhatsApp} alt="Icone do WhatsApp" /></a>
                 </div>
                 <div className="bomImg 
