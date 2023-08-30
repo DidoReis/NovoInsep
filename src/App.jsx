@@ -12,7 +12,7 @@ import Equipe from './components/equipe';
 import Depoimentos from "./components/depoimentos";
 import Faq from "./components/faq";
 import Footer from "./components/footer";
-import VLibras from '@djpfs/react-vlibras';
+
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
    
    <main className= {`${darkTheme ? "bg-dark-primary" : "bg-light-primary"} w-full overflow-hidden`}>
     <Navbar/>
-    <VLibras  forceOnload={true}/>
+    
     <Hero/>
     <Beneficios/>
     <Saly />

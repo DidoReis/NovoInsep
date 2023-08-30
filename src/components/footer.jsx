@@ -35,7 +35,7 @@ const Footer = () => {
                         <img src={InsepLetter} className='w-[98px] h-[26.88px]' alt="Insep" />
                     </div>
                     <div className='w-[240.66667px] h-[32px]'>
-                        <p className='font-heebo 
+                        <p className='font-roboto 
                         mt-[15.02px] 
                         text-[12px] 
                         not-italic 
@@ -60,13 +60,13 @@ const Footer = () => {
                     h-[18px]
                     
                     ">
-                        <h3 className='font-heebo
+                        <h1 className='font-roboto
                                        text-[12px]
                                        not-italic
                                        font-bold
                                        leading-[normal]
                                        text-white
-                                      '>Nos encontre nas redes sociais</h3>
+                                      '>Nos encontre nas redes sociais</h1>
                     </div>
                     <div className={`iconBox 
                                     ${darkTheme}
@@ -96,26 +96,26 @@ const Footer = () => {
                                     w-[255px]
                                     h-[28px]
                                     ">
-                        <h2 className='text-[#E6E1E5]
-                                         font-heebo
+                        <h1 className='text-[#E6E1E5]
+                                         font-roboto
                                          text-[16]
                                          not-italic
                                          font-bold
                                          leading-7'
-                        >Endereço</h2>
+                        >Endereço</h1>
                     </div>
                     <div className="subtitleFooter w-[255px] h-[16px]">
-                        <h3 className='text-[#E6E1E5]
-                                      font-heebo
+                        <h2 className='text-[#E6E1E5]
+                                      font-roboto
                                       text-[15px]
                                       not-italic
                                       font-semibold
                                       leading-4
-                                      '>Sede Administrativa</h3>
+                                      '>Sede Administrativa</h2>
                     </div>
                     <div className="sedeAdm 
                                     text-[#E6E1E5]
-                                    font-heebo
+                                    font-roboto
                                     text-[13px]
                                     font-normal
                                     leading-4

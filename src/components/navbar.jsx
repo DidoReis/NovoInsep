@@ -49,7 +49,8 @@ const Navbar = () => {
             />
             <img
               src={InsepLetters}
-              alt="Insep - Instituto Socioesportivo ParAtleta"
+              aria-hidden="true"
+              alt="Insep"
               className="w-[101.93px] h-[27.96px] ml-[17.06px] shrink-0"
             />
           </div>
@@ -70,7 +71,7 @@ const Navbar = () => {
                       content-center 
                       items-center 
                       gap-2
-                      font-poppins
+                      font-roboto
                       text-[10px] md:text-[16px]
                       font-medium 
                       leading-normal
@@ -170,7 +171,7 @@ const Navbar = () => {
                   <a className="flex 
                                 gap-[85px]
                                 w-[133px]
-                                font-lexend
+                                font-roboto
                                 text-[16px]
                                 text-center
                                 not-italic
@@ -189,7 +190,7 @@ const Navbar = () => {
                   <a className="flex 
                                 gap-[85px]
                                 w-[133px]
-                                font-lexend
+                                font-roboto
                                 text-[16px]
                                 text-center
                                 not-italic
@@ -205,7 +206,7 @@ const Navbar = () => {
                   <a className="flex 
                                 gap-[85px]
                                 w-[133px]
-                                font-lexend
+                                font-roboto
                                 text-[16px]
                                 text-center
                                 not-italic

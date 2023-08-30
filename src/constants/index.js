@@ -27,7 +27,7 @@ export const accordionData = [
   {
     id: "2",
     question: "Como funciona o processo de inscrição?",
-    answer: "Você deverá preencher o formulário de pré-inscrição. Entraremos em contato contigo por WhatsApp assim que fecharmos uma nova turma. A partir daí você receberá todos os direcionamentos necessários."
+    answer: "Você deverá preencher o formulário de pré-inscrição . Entraremos em contato contigo por WhatsApp assim que fecharmos uma nova turma. A partir daí você receberá todos os direcionamentos necessários."
   },
   {
     id: "3",
@@ -37,7 +37,7 @@ export const accordionData = [
   {
     id: "4",
     question: "Como serão as atividades assíncronas?",
-    answer: "São atividades realizadas fora do horário de aula, dedicadas a fixar e praticar os conteúdos. Elas podem ser individuais (como leituras, desafios e exercícios) ou em grupo (trabalhos e apresentações). Recomendamos que o aluno dedique ao menos 4 horas por semana, além das aulas. Nossos módulos tem um conteúdo bem consistente, portanto que sem essa dedicação você não conseguirá concluir o curso com sucesso."
+    answer: "São atividades realizadas fora do horário de aula, dedicadas a fixar e praticar os conteúdos. Elas podem ser individuais (como leituras, desafios e exercícios) ou em grupo (trabalhos e apresentações). Recomendamos que o aluno dedique ao menos 4 horas por semana, além das aulas. Nossos módulos tem um conteúdo bem consistente, portanto sem essa dedicação você não conseguirá concluir o curso com sucesso."
   },
   {
     id: "5",

@@ -1,5 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
+import VLibras from '@djpfs/react-vlibras';
 
 import styles from '../styles'
 import {  useSelector } from 'react-redux'
@@ -24,8 +25,9 @@ const Hero = () => {
                             md:flex
                             md:flex-row-reverse
                            `}>
-                            <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 md:absolute">
-                            <a target='blank' href="https://web.whatsapp.com/"><img src={WhatsApp} alt="Icone do WhatsApp" /></a>
+                            <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 md:absolute" tabIndex={1}>
+                            <a target='blank' href="https://web.whatsapp.com/" title="site externo"><img src={WhatsApp} alt="WhatsApp" /></a>
+                            <button tabIndex={2}><VLibras  forceOnload={true}/></button>
                 </div>
                 <div className="bomImg 
                                 w-[357px] md:w-[943px]
@@ -58,7 +60,7 @@ const Hero = () => {
                                 gap-[10px]
                                 
                                ">
-                    <img src={darkTheme ? Smile : SmileLight} alt="Imagem de um sorriso" /> 
+                    <img src={darkTheme ? Smile : SmileLight} alt="Imagem Smile" aria-hidden="true"/> 
                     <span className='
                                     flex
                                     w-[213px]
@@ -121,7 +123,10 @@ const Hero = () => {
                                        items-center
                                        gap-[10px]
                                        flex-shrink-0 
-                                       `}><span className={`${darkTheme ? "text-buttonDark" : "text-buttonLight"}
+                                       `
+                                      }
+                                      aria-label="Saiba mais sobre nosso conteúdo programático"
+                                      ><span className={`${darkTheme ? "text-buttonDark" : "text-buttonLight"}
                                                           text-center
                                                           font-roboto
                                                           text-[14px]

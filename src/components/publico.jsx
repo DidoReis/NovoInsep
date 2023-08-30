@@ -17,12 +17,12 @@ const Publico = () => {
         `}>
           {/* Title */}
           <div className="title w-[fixed] h-[]fixed mb-[32px]">
-            <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+            <h1 className={`${darkTheme ? "text-dark" : "text-light"}
                           font-roboto text-[24px] not-italic font-medium leading-[32px]
                           
                           `}>
               Público de interesse
-            </h2>
+            </h1>
           </div>
            
            {/* Box Interesse */}
@@ -41,7 +41,7 @@ const Publico = () => {
                             <div className="Title2 self-stretch">
                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                               no-ligatures
-                                              font-lexend
+                                              font-roboto
                                               text-[14px]
                                               not-italic
                                               font-bold
@@ -52,7 +52,7 @@ const Publico = () => {
                                 que já atuam ou não na área de tecnologia, e que desejam 
                                 ampliar suas possibilidades profissionais se especializando em 
                                 uma área carente de profissionais éticos e habilitados. Veja alguns 
-                                exemplo de pessoas que estudam conosco:</p>
+                                exemplos de pessoas que estudam conosco:</p>
                             </div>
 
                             <div className="w-[312px] md:w-[1061px]
@@ -80,7 +80,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -105,7 +105,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -130,7 +130,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -154,7 +154,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -178,7 +178,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -202,7 +202,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -226,7 +226,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -250,7 +250,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               font-semibold
@@ -274,7 +274,7 @@ const Publico = () => {
                                              `}>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[14px]
                                                               not-italic
                                                               w-[100%]
@@ -282,7 +282,7 @@ const Publico = () => {
                                                               leading-[24px]
                                                               tracking-[0.25px]
                                                               uppercase
-                                                           `}>Profissionais que atuam com esg</p>
+                                                           `} aria-label='Environmental Social Governance'>Profissionais que atuam com esg</p>
                                   </div>
                               
                               

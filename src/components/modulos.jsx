@@ -70,7 +70,7 @@ const Modulos = () => {
                                                               w-[177px]
                                                               h-[30px]
                                                               
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[24px]
                                                               font-normal
                                                               not-italic
@@ -79,7 +79,7 @@ const Modulos = () => {
                                                             `}>Módulo Básico</h2>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[12px]
                                                               not-italic
                                                               font-medium
@@ -100,7 +100,7 @@ const Modulos = () => {
                                                               gap-2 
                                                               self-stretch">
                                                 <h3 className={`${darkTheme ? "text-dark" : "text-light"}
-                                                                font-lexend
+                                                                font-roboto
                                                                 h-[20px]
                                                                 
                                                                 no-ligatures
@@ -115,7 +115,7 @@ const Modulos = () => {
                                                               `}>Carga horária: 30 horas</h3>
                                                 <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                 no-ligatures
-                                                                font-lexend
+                                                                font-roboto
                                                                 text-[16px]
                                                                 not-italic
                                                                 font-normal
@@ -137,7 +137,9 @@ const Modulos = () => {
                                                                     items-center
                                                                     gap-[10px]
                                                                     self-stretch
-                                                                  `}><span className='text-center
+                                                                  `}
+                                                                  aria-label="Tenho interesse em Módulo Básico"
+                                                                  ><span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]
                                                                                       not-italic
@@ -165,10 +167,10 @@ const Modulos = () => {
                                                                       gap-[16px]
                                                                       self-stretch
                                                                    `}>
-                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true" />
                                                           <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -190,10 +192,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true" />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -216,10 +218,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true" />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -241,10 +243,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true" />
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -266,10 +268,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -303,7 +305,7 @@ const Modulos = () => {
                                                               w-[312px]
                                                               h-[30px]
                                                               
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[24px]
                                                               font-normal
                                                               not-italic
@@ -312,7 +314,7 @@ const Modulos = () => {
                                                             `}>Módulo Intermediário</h2>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[12px]
                                                               not-italic
                                                               font-medium
@@ -333,7 +335,7 @@ const Modulos = () => {
                                                               gap-2 
                                                               self-stretch">
                                                 <h3 className={`${darkTheme ? "text-dark" : "text-light"}
-                                                                font-lexend
+                                                                font-roboto
                                                                 h-[20px]
                                                                 
                                                                 no-ligatures
@@ -348,7 +350,7 @@ const Modulos = () => {
                                                               `}>Carga horária: 30 horas</h3>
                                                 <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                 no-ligatures
-                                                                font-lexend
+                                                                font-roboto
                                                                 text-[16px]
                                                                 not-italic
                                                                 font-normal
@@ -370,7 +372,9 @@ const Modulos = () => {
                                                                     items-center
                                                                     gap-[10px]
                                                                     self-stretch
-                                                                  `}><span className='text-center
+                                                                  `}
+                                                                  aria-label="Tenho interesse em Módulo Intermediário"
+                                                                  ><span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]
                                                                                       not-italic
@@ -398,10 +402,10 @@ const Modulos = () => {
                                                                       gap-[16px]
                                                                       self-stretch
                                                                    `}>
-                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                           <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -423,10 +427,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -448,10 +452,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -473,10 +477,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -498,10 +502,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -535,7 +539,7 @@ const Modulos = () => {
                                                               w-[312px]
                                                               h-[30px]
                                                               
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[24px]
                                                               font-normal
                                                               not-italic
@@ -544,7 +548,7 @@ const Modulos = () => {
                                                             `}>Módulo Avançado</h2>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
-                                                              font-lexend
+                                                              font-roboto
                                                               text-[12px]
                                                               not-italic
                                                               font-medium
@@ -566,7 +570,7 @@ const Modulos = () => {
                                                               gap-2 
                                                               self-stretch">
                                                 <h3 className={`${darkTheme ? "text-dark" : "text-light"}
-                                                                font-lexend
+                                                                font-roboto
                                                                 h-[20px]
                                                                 
                                                                 no-ligatures
@@ -581,7 +585,7 @@ const Modulos = () => {
                                                               `}>Carga horária: 30 horas</h3>
                                                 <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                 no-ligatures
-                                                                font-lexend
+                                                                font-roboto
                                                                 text-[16px]
                                                                 not-italic
                                                                 font-normal
@@ -603,7 +607,9 @@ const Modulos = () => {
                                                                     items-center
                                                                     gap-[10px]
                                                                     self-stretch
-                                                                  `}><span className='text-center
+                                                                  `}
+                                                                  aria-label="Tenho interesse em Módulo Avançado"
+                                                                  ><span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]
                                                                                       not-italic
@@ -631,10 +637,10 @@ const Modulos = () => {
                                                                       gap-[16px]
                                                                       self-stretch
                                                                    `}>
-                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                          <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                           <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -658,10 +664,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -683,10 +689,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -708,10 +714,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal
@@ -733,10 +739,10 @@ const Modulos = () => {
                                                                     gap-[16px]
                                                                     self-stretch
                                                                    `}>
-                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' />
+                                                                     <img src={darkTheme ? CheckDark : CheckLight} alt='Ilustração de Checklist' aria-hidden="true"/>
                                                                     <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                                         no-ligatures
-                                                                        font-lexend
+                                                                        font-roboto
                                                                         text-[14px]
                                                                         not-italic
                                                                         font-normal

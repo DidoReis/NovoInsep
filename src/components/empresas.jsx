@@ -51,12 +51,12 @@ const Empresas = () => {
                                 md:ml-[156px]
                                 md:mb-[60px]
                                 
-                               `}><h2 className='font-roboto 
+                               `}><h1 className='font-roboto 
                                                  text-[24px] 
                                                  not-italic 
                                                  font-medium 
                                                  leading-[32px]'
-                                    >Onde nossos alunos trabalham</h2>
+                                    >Onde nossos alunos trabalham</h1>
                 </div>
                 <div className={`${darkTheme ? "text-dark" : "text-light" } 
                                 empresas
@@ -84,14 +84,14 @@ const Empresas = () => {
                                     gap-[48px] md:gap-0" >           
                     <img 
                     src={darkTheme ? SantanderDark : SantanderLight} 
-                    alt="Logotipo do Banco Santander" 
+                    alt="Banco Santander" 
                     className='w-[158px] md:w-[238px]
                                h-[28px] md:h-[41.465px]
                                md:mb-[98.53px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? NttDark : NttLight} 
-                    alt="Logotipo da Nttdata" 
+                    alt="Nttdata" 
                     className='w-[139px] md:w-[200px]
                                h-[23px] md:h-[32.502px]
                                md:ml-[100px]
@@ -99,7 +99,7 @@ const Empresas = () => {
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? itauDark : itauLight} 
-                    alt="Logotipo do Banco Itau" 
+                    alt="Banco Itau" 
                     className='w-[66px] md:w-[100px]
                                h-[67px] md:h-[101.163px]
                                md:ml-[145px]
@@ -107,7 +107,7 @@ const Empresas = () => {
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? PortoDark : PortoLight} 
-                    alt="Logotipo Porto Seguro" 
+                    alt="Porto Seguro" 
                     className='w-[86px] md:w-[120px]
                                h-[87px] md:h-[120.876px]
                                md:ml-[185px]
@@ -115,56 +115,56 @@ const Empresas = () => {
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? BradescoDark : BradescoLight} 
-                    alt="Logotipo do Bradesco" 
+                    alt="do Bradesco" 
                     className='w-[179px] md:w-[238px]
                                h-[34px] md:h-[44.698px]
                                md:mb-[115.3px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? IfoodDark : IfoodLight} 
-                    alt="Logotipo do Ifood" 
+                    alt="Ifood" 
                     className='w-[97px] md:w-[140px]
                                h-[51px] md:h-[73.985px]
                                md:ml-[130px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? PwcDark : PwcLight} 
-                    alt="Logotipo da Pwc" 
+                    alt="Pwc" 
                     className='w-[107px] md:w-[150px]
                                h-[81px] md:h-[113px]
                                md:ml-[150px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? SerasaDark : SerasaLight} 
-                    alt="Logotipo da Serasa Experian" 
+                    alt="Serasa Experian" 
                     className='w-[142px] md:w-[200px]
                                h-[61px] md:h-[86px]
                                md:ml-[120px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? DrogasilDark : DrogasilLight} 
-                    alt="Logotipo da Farmácia Drogasil" 
+                    alt="Farmácia Drogasil" 
                     className='w-[161px] md:w-[238px]
                                h-[31px] md:h-[45.773px]
                                
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? IBMDark : IBMLight} 
-                    alt="Logotipo da Ibm" 
+                    alt="Ibm" 
                     className='w-[90px] md:w-[130px]
                                h-[36px] md:h-[52.051px]
                                md:ml-[135px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? PicpayDark : PicpayLight} 
-                    alt="Logotipo do Picpay " 
+                    alt="Picpay " 
                     className='w-[145px] md:w-[190px]
                                h-[36px] md:h-[46.686px]
                                md:ml-[135px]
                                flex-shrink-0'/>
                     <img 
                     src={darkTheme ? CarrefourDark : CarrefourLight} 
-                    alt="Logotipo do Carrefour" 
+                    alt="Carrefour" 
                     className='w-[84px] md:w-[120px]
                                h-[67px] md:h-[96.265px]
                                md:ml-[140px]

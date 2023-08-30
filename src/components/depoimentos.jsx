@@ -23,14 +23,14 @@ const Depoimentos = () => {
                                 h-[32px] 
                                 
                             `}>
-                <h2 className="title
+                <h1 className="title
                                              font-roboto
                                              text-[24px]
                                              not-italic
                                              font-medium
                                              leading-[32px]                   
                                              ">O que dizem nossos alunos...
-                </h2>
+                </h1>
             </div>
             <div className={`${darkTheme ? "text-dark" : "text-light"}
                                 w-[358px] md:w-[1128px]
@@ -133,11 +133,11 @@ const Depoimentos = () => {
                                      tracking-[0.55px]
                                      "  
                         >“Sempre senti um grande entusiasmo pelo tema acessibilidade. 
-                        Pesquisei outros cursos, mas vi o mais do mesmo: professores 
+                        Pesquisei outros cursos, mas vi mais do mesmo: professores 
                         visuais, turmas sem Pcd’s e aulas sem recursos de acessibilidade. 
                         Por indicação de um colega cego, cheguei ao INSEP e encontrei ali 
                         um grande diferencial. Aulas ministradas por uma dupla fera com grande 
-                        conhecimento técnico e empatia, além das turmas serem diversas e inclusas. 
+                        conhecimento técnico e empatia, além das turmas serem diversas e inclusivas. 
                         Foi uma grande experiência, aprendi a me colocar no lugar do outro e hoje 
                         tento ao máximo criar designs mais acessíveis à todas as pessoas”.</p>
                     </div>
@@ -147,7 +147,7 @@ const Depoimentos = () => {
                                          not-italic
                                          font-bold
                                          leading-[24px]
-                                        ">Guilherme <br />
+                                        ">Gui Neptune <br />
                                         <span className="text-[16px] font-medium">Especialista de UX Design na Serasa Experian</span>
                       </span>
                     </div>

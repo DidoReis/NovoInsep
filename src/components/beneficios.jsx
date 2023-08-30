@@ -20,7 +20,7 @@ const Beneficios = () => {
 
             `}>
             
-                <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                <h1 className={`${darkTheme ? "text-dark" : "text-light"}
                  flex
                  w-[286px] md:w-[446px]
                  h-[64.06px] md:h-[27.93349px]
@@ -37,7 +37,7 @@ const Beneficios = () => {
                  md:ml-[156px]
                  `
                 }
-               >O Insep te oferece benefícios únicos</h2>
+               >O Insep te oferece benefícios únicos</h1>
                
                <div className="
                w-[358px] md:w-[1128px]

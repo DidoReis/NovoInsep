@@ -35,8 +35,8 @@ const Faq = () => {
             `}>
                 
                 <div className="boxTitle w-[98px] md:w-[435px] h-[60px] md:h-[160px]"> 
-                    <h2 className='no-ligatures
-                                   font-lexend
+                    <h1 className='no-ligatures
+                                   font-roboto
                                    md:ml-[87px] 
                                    text-[48px] md:text-[128px]
                                    not-italic
@@ -45,7 +45,7 @@ const Faq = () => {
                                    tracking-[0.18px] 
                                   '>
                         FAQ
-                    </h2>
+                    </h1>
                     <div className="imageQuestion 
                                     items-center
                                     justify-center

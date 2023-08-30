@@ -14,7 +14,7 @@ const Equipe = () => {
     const linkedinLinks = {
       Flavio: 'https://www.linkedin.com/in/flaviorscorreia/',
       Mauricio: 'https://www.linkedin.com/in/mauricio-pereiro/',
-      Andressa : "https://www.linkedin.com/",
+      Andressa : "https://www.linkedin.com/in/andressa-lucena-sim%C3%A3o-de-morais-65641b190/",
     };
 
     if (linkedinLinks[profile]) {
@@ -32,10 +32,10 @@ const Equipe = () => {
                                     h-[auto]
                                     flex-shrink-0
                                     
-                               ` } aria-label="Seção Equipe Insep"
+                               ` } 
         >
           <div className="TitleBox w-[318.36017px] ">
-            <h2
+            <h1
               className={`${darkTheme ? "text-dark" : "text-light"}
                                  font-roboto
                                  text-[24px]
@@ -44,7 +44,7 @@ const Equipe = () => {
                                  leading-[32px]   
                                 `}
             >Equipe Insep
-            </h2>
+            </h1>
           </div>
           {/* Box Interna */}
           <div className="internBox 
@@ -98,14 +98,14 @@ const Equipe = () => {
                                                             items-start
                                                             gap-1
                                                          `}>
-                                                <h3 className="self-stretch
+                                                <h2 className="self-stretch
                                                                font-roboto
                                                                text-[16px]
                                                                not-italic
                                                                font-black
                                                                leading-[24px]
                                                                tracking-[0.5px] 
-                                                              " >Flavio Correia</h3>
+                                                              " >Flavio Correia</h2>
                                                 <span className="font-roboto
                                                                  text-[14px]
                                                                  not-italic
@@ -131,16 +131,18 @@ const Equipe = () => {
                                                                         items-center
                                                                         cursor-pointer
                                                                       `}
-                                                                      onClick={() => redirectToLinkedIn('Flavio')}>
-               
+                                                                      onClick={() => redirectToLinkedIn('Flavio')}
+                                                                      aria-label="Seguir Flavio Correia no LinkedIn"
+                                                                      >
+                                                                        
                                                                       <span className="no-ligatures
-                                                                                        font-lexend
+                                                                                        font-roboto
                                                                                         text-[14px]
                                                                                         not-italic
                                                                                         font-medium
                                                                                         leading-[normal]
                                                                                         tracking-[0.1px]
-                                                                                       ">Seguir no linkedin</span></button>            
+                                                                                       " aria-hidden="true">Seguir no linkedin</span></button>            
                                                 </div>                
                                           </div>                 
                                       </div>          
@@ -150,7 +152,7 @@ const Equipe = () => {
                                                                 p-[24px]
                                                                 
                                                                `}><p className="no-ligatures
-                                                                                font-lexend
+                                                                                font-roboto
                                                                                 text-[16px]
                                                                                 not-italic
                                                                                 font-normal
@@ -208,14 +210,14 @@ const Equipe = () => {
                                                             items-start
                                                             gap-1
                                                          `}>
-                                                <h3 className="self-stretch
+                                                <h2 className="self-stretch
                                                                font-roboto
                                                                text-[16px]
                                                                not-italic
                                                                font-black
                                                                leading-[24px]
                                                                tracking-[0.5px] 
-                                                              " >Maurício Pereiro</h3>
+                                                              " >Maurício Pereiro</h2>
                                                 <span className="font-roboto
                                                                  text-[14px]
                                                                  not-italic
@@ -241,16 +243,18 @@ const Equipe = () => {
                                                                         items-center
                                                                         cursor-pointer
                                                                       `}
-                                                                      onClick={() => redirectToLinkedIn('Mauricio')}>
+                                                                      onClick={() => redirectToLinkedIn('Mauricio')}
+                                                                      aria-label="Seguir Mauricio Pereiro no LinkedIn"
+                                                                      >
                
                                                                       <span className="no-ligatures
-                                                                                        font-lexend
+                                                                                        font-roboto
                                                                                         text-[14px]
                                                                                         not-italic
                                                                                         font-medium
                                                                                         leading-[normal]
                                                                                         tracking-[0.1px]
-                                                                                       ">Seguir no linkedin</span></button>            
+                                                                                       " aria-hidden='true'>Seguir no linkedin</span></button>            
                                                 </div>                
                                           </div>                 
                                       </div>          
@@ -260,7 +264,7 @@ const Equipe = () => {
                                                                 p-[24px]
                                                                 
                                                                `}><p className="no-ligatures
-                                                                                font-lexend
+                                                                                font-roboto
                                                                                 text-[16px]
                                                                                 not-italic
                                                                                 font-normal
@@ -316,14 +320,14 @@ const Equipe = () => {
                                                             items-start
                                                             gap-1
                                                          `}>
-                                                <h3 className="self-stretch
+                                                <h2 className="self-stretch
                                                                font-roboto
                                                                text-[16px]
                                                                not-italic
                                                                font-black
                                                                leading-[24px]
                                                                tracking-[0.5px] 
-                                                              " >Andressa</h3>
+                                                              " >Andressa Lucena</h2>
                                                 <span className="font-roboto
                                                                  text-[14px]
                                                                  not-italic
@@ -350,16 +354,18 @@ const Equipe = () => {
                                                                         cursor-pointer
                                                                         
                                                                       `}
-                                                                      onClick={() => redirectToLinkedIn('Andressa')}>
+                                                                      onClick={() => redirectToLinkedIn('Andressa')}
+                                                                      aria-label="Seguir Andressa Lucena no LinkedIn"
+                                                                      >
                
                                                                       <span className="no-ligatures
-                                                                                        font-lexend
+                                                                                        font-roboto
                                                                                         text-[14px]
                                                                                         not-italic
                                                                                         font-medium
                                                                                         leading-[normal]
                                                                                         tracking-[0.1px]
-                                                                                       ">Seguir no linkedin</span></button>            
+                                                                                       " aria-hidden='true'>Seguir no linkedin</span></button>            
                                                 </div>                
                                           </div>                 
                                       </div>          
@@ -369,7 +375,7 @@ const Equipe = () => {
                                                                 p-[24px]
                                                                 
                                                                `}><p className="no-ligatures
-                                                                                font-lexend
+                                                                                font-roboto
                                                                                 text-[16px]
                                                                                 not-italic
                                                                                 font-normal
