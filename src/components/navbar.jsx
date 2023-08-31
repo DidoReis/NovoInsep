@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="img flex items-center shrink-0 w-[171px] h-[46px] ">
             <img
               src={Logo}
-              alt="Logotipo Insep"
+              alt="Insep"
               className="w-[52px] h-[46px] shrink-0"
             />
             <img
