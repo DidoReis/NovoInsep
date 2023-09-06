@@ -77,6 +77,7 @@ module.exports = {
       ss: "620px",
       sm: "768px",
       md: "1060px",
+      ipad: "1194px",
       lg: "1200px",
       xl: "1700px",
     }, 

@@ -12,8 +12,8 @@ const Saly = () => {
         <div className={`${styles.boxWidth} flex items-center justify-center`}>
             <section className={`${darkTheme ? "bg-dark-primary" : "bg-light-primary"}
               flex
-              w-[359px] md:w-[1440px]
-              h-[640px] md:h-[]
+              w-[359px] md:w-[1440px] 
+              h-[640px] md:h-[280px] 
               items-center
               content-center
               mt-[48px] md:mt-[128px]

@@ -83,7 +83,7 @@ const Navbar = () => {
                   <a
                     className="group"
                     href={`#${nav.id}`}
-                    aria-label={`Link para ${nav.title}`}
+                    aria-label={`${nav.title}`}
                     onClick={() => handleLinkCLick(index)}
                   >
                     
