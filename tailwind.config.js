@@ -11,9 +11,12 @@ module.exports = {
           secondary: '#313033', // Cor secundária para o tema dark
           cardBeneficio: "#404040",
           borderCard: "#938F99",
+          borderCardCurso: "#F66C86",
+          buttonCurso: "#F66C86",
           button: "#FEAC39",
           divider: "#ffffff",
           footer: "#1C1B1F",
+          hoverDarkCurso: "#F66C86",
           hoverDark: "#ffffff",
           // Adicione outras cores personalizadas para o tema dark, se necessário
         },
@@ -22,6 +25,8 @@ module.exports = {
           secondary: '#FFDFB3', // Cor secundária para o tema light]
           cardBeneficio: "#FFEED8",
           borderCard: "#46382F",
+          borderCardCurso: "#C60025",
+          buttonCurso: "#C60025",
           button: "#31241E",
           divider: "#31241E",
           footer: "#28211D",
@@ -76,6 +81,7 @@ module.exports = {
       xs: "414px",
       ss: "620px",
       sm: "768px",
+      ipadV: "834px",
       md: "1060px",
       ipad: "1194px",
       lg: "1200px",

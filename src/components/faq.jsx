@@ -3,24 +3,17 @@ import React, { useState } from 'react'
 import styles from "../styles";
 import { useSelector } from "react-redux";
 
-import ArrowUp from "../assets/arrowUp.svg"
-import ArrowDown from "../assets/ArrowDown.png"
+
 import Question from "../assets/character.png"
 import { accordionData } from '../constants';
 import Accordion from './accordion';
 
 const Faq = () => {
     const darkTheme = useSelector((state) => state.theme.darkTheme);
-    const [showArrowDown, setShowArrow] = useState(new Array(12).fill(false));
+ 
     
 
-    const toggleArrow = (index) => {
-        setShowArrow((prevShowArrow) => {
-            const newState = [...prevShowArrow];
-            newState[index] = !newState[index];
-            return newState;
-        });
-    }
+  
   return (
     <div className={`flex justify-center items-center`}>
         <div className={`${styles.boxWidth} flex items-center justify-center `}>
@@ -38,13 +31,14 @@ const Faq = () => {
                     <h1 className='no-ligatures
                                    font-roboto
                                    md:ml-[87px] 
-                                   text-[48px] md:text-[128px]
+                                   text-[28px] md:text-[48px]
                                    not-italic
                                    font-semibold
                                    leading-[normal]
                                    tracking-[0.18px] 
+                                   
                                   '>
-                        FAQ
+                        Perguntas frequentes 
                     </h1>
                     <div className="imageQuestion 
                                     items-center

@@ -159,14 +159,7 @@ const Equipe = () => {
                                                                                 leading-[24px]
                                                                                 tracking-[0.5px]
                                                                                 self-stretch
-                                                                               ">Graduado em Musicoterapia, pós-graduado em 
-                                                                Governança de TI pela UNICAMP e graduando em 
-                                                                Administração pela Universidade Estácio de Sá. 
-                                                                Mais de 10 anos de atuação como especialista 
-                                                                em Acessibilidade Digital,  trabalhando em grandes 
-                                                                instituições financeiras como Itaú Unibanco e Pic Pay. <br />
-                                                                Hoje trabalha como Program Manager Acessibility Specialist, 
-                                                                além de ser professor universitário e consultor e paratleta.</p></div>    
+                                                                               ">Graduado em Musicoterapia, pós-graduado em Governança de TI pela UNICAMP e graduando em Administração pela Universidade Estácio de Sá. Mais de 10 anos de atuação como especialista em Acessibilidade Digital,  trabalhando em grandes instituições financeiras como Itaú Unibanco e Pic Pay. Hoje trabalha como Program Manager Acessibility Specialist, além de ser professor universitário, consultor empresarial e paratleta.</p></div>    
               </div>
 
                 {/* Box Mauricio */}
@@ -270,13 +263,7 @@ const Equipe = () => {
                                                                                 font-normal
                                                                                 leading-[24px]
                                                                                 self-stretch
-                                                                               ">Graduado em Ciências da Computação, com pós-graduação em 
-                                                                               Gestão de Centrais de Atendimento e em Processos de Negócios. 
-                                                                               Mais de 30 anos de experiência profissional, <br /> sendo 24 anos no 
-                                                                               segmento bancário e 09 anos em consultoria. Atua na <br /> elicitação 
-                                                                               de requisitos técnicos, funcionais, negócios, acessibilidade e 
-                                                                               identificação de processos críticos, pela modelagem e execução 
-                                                                               de testes conforme regras de acessibilidade nacionais e internacionais.</p></div>    
+                                                                               ">Graduado em Ciências da Computação, com pós-graduação em Gestão de Centrais de Atendimento e em Processos de Negócios. Mais de 30 anos de experiência profissional, sendo 24 anos no segmento bancário e 9 anos em consultoria. Atua na elicitação de requisitos técnicos, funcionais, de negócios, acessibilidade e identificação de processos críticos pela modelagem e execução de testes conforme regras de acessibilidade nacionais e internacionais.</p></div>    
               </div>
 
                 {/* Andressa */}
@@ -382,15 +369,7 @@ const Equipe = () => {
                                                                                 leading-[24px]
                                                                                 
                                                                                 self-stretch
-                                                                               ">Graduada em Gestão de Recursos Humanos e 
-                                                                               pós-graduada em Psicologia Organizacional. 
-                                                                               Atua no Itau como Analista Comercial de fundos 
-                                                                               de investimentos. Lidera grupos de afinidade de
-                                                                               PCDs, favorecendo o protagonismo dos colaboradores
-                                                                               com deficiência. É coordenadora do Núcleo de Desenvolvimento 
-                                                                               e Capacitação Profissional no INSEP, apoiando os alunos em 
-                                                                               projetos de ingresso e/ou transição de carreira para QA em 
-                                                                               Acessibilidade Digital.</p></div>    
+                                                                               ">Graduada em Gestão de Recursos Humanos e pós-graduada em Psicologia Organizacional. Atua no Itau como Analista Comercial de fundos de investimentos. Lidera grupos de afinidade de PCDs, favorecendo o protagonismo dos colaboradores com deficiência. É coordenadora do Núcleo de Desenvolvimento e Capacitação Profissional no INSEP, apoiando os alunos em projetos de ingresso e/ou transição de carreira para QA em Acessibilidade Digital.</p></div>    
               </div>
               
           </div>

@@ -12,18 +12,21 @@ const Beneficios = () => {
               benefBox 
               
               inline-flex
-              flex-col md:flex-col
-              w-[390px] md:w-[1440px]
-              h-[1065px] md:h-[420px]
+              flex-col lg:flex-col
+              w-[390px] lg:w-[1440px] ipad:w-[1194px] ipadV:w-[836px]
+              h-[1065px] lg:h-[420px] ipad:h-[403.9335px] ipadV:h-[555px]
               pt-[40.038px] pb-[40px] pl-[16px] pr-[16px]
-
-
+              ipad:pt-[32px] ipad:pb-[32px] ipad:pl-[32px] ipad:pr-[32px]
+              ipadV:pt-[32px] ipadV:pb-[32px] ipadV:pl-[44px] ipadV:pr-[44px]
+              lg:pt-[39.91px] lg:pb-[40px] lg:pl-[156px] lg:pr-[156px]
+              
+              
             `}>
             
                 <h1 className={`${darkTheme ? "text-dark" : "text-light"}
                  flex
-                 w-[286px] md:w-[446px]
-                 h-[64.06px] md:h-[27.93349px]
+                 w-[286px] lg:w-[446px] ipad:w-[446px] ipadV:w-[446px]
+                 h-[64.06px] lg:h-[27.93349px] ipad:h-[27.93349px] ipadV:h-[27.93349px]
                  flex-col 
                  justify-center 
                  flex-shrink-0
@@ -34,21 +37,21 @@ const Beneficios = () => {
                  font-medium
                  leading-[32px]  
                  mb-[32.9px]
-                 md:ml-[156px]
+                 
                  `
                 }
                >O Insep te oferece benefícios únicos</h1>
                
                <div className="
-               w-[358px] md:w-[1128px]
-               h-[888px] md:h-[280px]
-               md:ml-[156px]
+               w-[358px] lg:w-[1128px] ipad:w-[1128px] ipadV:w-[748px]
+               h-[888px] lg:h-[280px] ipad:h-[280px] ipadV:h-[432px]
                
-               flex md:flex-wrap
-               flex-col md:flex-row
+               
+               flex lg:flex-wrap ipad:flex-wrap ipadV:flex-wrap
+               flex-col lg:flex-row ipad:flex-row ipadV:flex-row
                items-start
-               justify-center
-               gap-[24px] md:gap-[24px]
+               justify-center ipad:justify-center
+               gap-[24px] lg:gap-[24px]
                flex-shrink-0
               
                ">
@@ -57,8 +60,8 @@ const Beneficios = () => {
                 {`${darkTheme ? "bg-dark-cardBeneficio" : "bg-light-cardBeneficio"}
                   flex
                   
-                  w-[358px] md:w-[358px]
-                  h-[128px] md:h-[128px]
+                  w-[358px] lg:w-[358px]
+                  h-[128px] lg:h-[128px]
                   p-[16px]
                   flex-col
                   justify-center
@@ -77,7 +80,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}> Excelência técnica e profissional</h2>
+                  `}>ExceLÊNCIA TéCNICA E profissional</h2>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]
@@ -89,8 +92,7 @@ const Beneficios = () => {
                       not-italic
                       font-normal
                       leading-[24px]
-                    `}>Nossos cursos são elaborados por Especialistas com 
-                       deficiência e de altíssimo nível profissional.</p>
+                    `}>Nossos cursos são elaborados por Especialistas com deficiência e de altíssimo nível profissional.</p>
                   </div>
                 </div>
 
@@ -99,7 +101,7 @@ const Beneficios = () => {
                 {`${darkTheme ? "bg-dark-cardBeneficio" : "bg-light-cardBeneficio"}
                   flex
                   
-                  w-[358px] md:w-[358px]
+                  w-[358px] lg:w-[358px]
                   h-[128px]
                   p-[16px]
                   flex-col
@@ -131,8 +133,7 @@ const Beneficios = () => {
                       not-italic
                       font-normal
                       leading-[24px]
-                    `}>Aqui você terá oportunidade de interagir (com pessoas diversas), 
-                       desenvolver a empatia e suas habilidades interpessoais.</p>
+                    `}>Aqui você terá oportunidade de interagir (com pessoas diversas), desenvolver a empatia e suas habilidades interpessoais.</p>
                   </div>
                 </div>
 
@@ -141,7 +142,7 @@ const Beneficios = () => {
                 {`${darkTheme ? "bg-dark-cardBeneficio" : "bg-light-cardBeneficio"}
                   flex
                 
-                  w-[358px] md:w-[358px]
+                  w-[358px] lg:w-[358px]
                   h-[128px]
                   p-[16px]
                   flex-col
@@ -173,8 +174,7 @@ const Beneficios = () => {
                       not-italic
                       font-normal
                       leading-[24px]
-                    `}>Obtenha o máximo de benefício das nossas aulas interativas 
-                      e dinâmicas de grupo facilitadas com seus colegas.</p>
+                    `}>Obtenha o máximo de benefício das nossas aulas interativas e dinâmicas de grupo facilitadas com seus colegas.</p>
                   </div>
                 </div>
 
@@ -183,7 +183,7 @@ const Beneficios = () => {
                 {`${darkTheme ? "bg-dark-cardBeneficio" : "bg-light-cardBeneficio"}
                   flex
                   
-                  w-[358px] md:w-[358px]
+                  w-[358px] lg:w-[358px]
                   h-[128px]
                   p-[16px]
                   flex-col
@@ -215,8 +215,7 @@ const Beneficios = () => {
                       not-italic
                       font-normal
                       leading-[24px]
-                    `}>Nossa metodologia equilibra conceitos teóricos, 
-                       desafios práticos e situacionais para que você aprenda de forma consistente.</p>
+                    `}>Nossa metodologia equilibra conceitos teóricos, desafios práticos e situacionais para que você aprenda de forma consistente. </p>
                   </div>
                 </div>
 
@@ -225,7 +224,7 @@ const Beneficios = () => {
                 {`${darkTheme ? "bg-dark-cardBeneficio" : "bg-light-cardBeneficio"}
                   flex
                
-                  w-[358px] md:w-[358px]
+                  w-[358px] lg:w-[358px]
                   h-[128px]
                   p-[16px]
                   flex-col
@@ -257,8 +256,7 @@ const Beneficios = () => {
                       not-italic
                       font-normal
                       leading-[24px]
-                    `}>Estudando conosco você estará contribuindo com 
-                      nossos projetos sociais que apoiam os para-atletas no esporte. 
+                    `}>Estudando conosco você estará contribuindo com nossos projetos sociais que apoiam os para-atletas no esporte.   
                        </p>
                   </div>
                 </div>
@@ -268,7 +266,7 @@ const Beneficios = () => {
                 {`${darkTheme ? "bg-dark-cardBeneficio" : "bg-light-cardBeneficio"}
                   flex
                  
-                  w-[358px] md:w-[358px]
+                  w-[358px] lg:w-[358px]
                   h-[128px]
                   p-[16px]
                   flex-col
@@ -300,8 +298,7 @@ const Beneficios = () => {
                       not-italic
                       font-normal
                       leading-[24px]
-                    `}>Incentivamos nossos alunos a ampliar seus horizontes 
-                       profissionais e a iniciar processos de transição de carreira.</p>
+                    `}>Incentivamos nossos alunos a ampliar seus horizontes profissionais e a iniciar processos de transição de carreira.</p>
                   </div>
                 </div>
                </div>

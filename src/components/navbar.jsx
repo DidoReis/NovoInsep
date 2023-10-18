@@ -28,7 +28,7 @@ const Navbar = () => {
         <header
           className={`navbar
           ${darkTheme ? "bg-zinc-900" : "bg-light-footer"}
-          px-0 md:px-[32px] 
+          px-0 md:px-[32px] ipad:px-[32px] ipadV:px-[32px]
           flex 
           flex-row 
           items-center 
@@ -56,14 +56,15 @@ const Navbar = () => {
           </div>
 
           {/* Menu and buttons */}
-          <nav className="menu hidden sm:flex  justify-end items-center flex-1">
+          <nav className="menu hidden sm:flex  justify-end items-center flex-1 ">
             <ul className="nav-links list-none sm:flex hidden justify-end items-center flex-1">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
                   className={`
+                  
                       nav-item
-                      w-full md:w-[139px]  
+                      w-full md:w-[139px]  ipadV:w-[84px]
                       h-[51px]
                       p-4 
                       flex
@@ -72,7 +73,7 @@ const Navbar = () => {
                       items-center 
                       gap-2
                       font-roboto
-                      text-[10px] md:text-[16px]
+                      text-[10px] md:text-[16px] ipadV:text-[16px]
                       font-medium 
                       leading-normal
                       text-white
@@ -134,13 +135,15 @@ const Navbar = () => {
             >
               <div
                 className=" darkOrLightButton
-                     flex ml-[6px] 
+                     flex ml-[6px] ipad:ml-[6px] 
                      w-[45px] 
                      h-[25px] 
                      justify-end 
                      content-center 
                      items-center 
-                     shrink-0 "
+                     shrink-0 
+                     "
+                     
               >
                 {/* DarkLightButton */}
                 <DarkLightButton />

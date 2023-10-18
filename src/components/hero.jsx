@@ -104,11 +104,12 @@ const Hero = () => {
                                   leading-[24px]
                                   mt-[16px]
                                   md:tracking-[0.15px]
-                                 '>Estude conosco e descubra como promover ambientes 
-                                 virtuais mais inclusivos. O Núcleo de Formação Profissional 
-                                 do INSEP irá te ajudar a tornar-se um especialista em 
-                                 garantia da conformidade e qualidade dos 
-                                 ambientes digitais para Pessoa com Deficiência.</p>
+                                 '>Estude conosco e descubra como promover 
+                                 ambientes virtuais mais inclusivos. 
+                                 O Núcleo de Formação Profissional do INSEP 
+                                 irá te ajudar a tornar-se um especialista em  garantia 
+                                 da conformidade e qualidade dos ambientes digitais para 
+                                 Pessoa com Deficiência.</p>
                     <button className={`${darkTheme ? "bg-dark-button" : "bg-light-button"}
                                         ${darkTheme ? "hover:bg-dark-hoverDark" : "hover:bg-light-hoverLight"}
                                        w-[118px] 

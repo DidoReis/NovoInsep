@@ -16,20 +16,21 @@ const Footer = () => {
         <div className={`${styles.boxWidth} flex items-center justify-center `}>
             <section className={`${darkTheme ? "bg-dark-footer" : "bg-light-footer"}
                                 
-                                   w-[390px] md:w-[1440px]
-                                   
-                                   h-[408px] md:h-[156px]
+                                   w-[390px] lg:w-[1440px] ipad:w-[1194px]
+                                   border border-solid border-red-100
+                                   h-[408px] lg:h-[156px] ipad:h-[156px]
                                    border-t border-[#938F99]
-                                   mt-[48px] md:mt-[174px]
-                                   p-[32px]
-                                   flex
-                                   flex-wrap
+                                   mt-[48px] lg:mt-[174px]
+                                   p-[32px] lg:p-[32px]
+                                   flex ipad:flex
+                                   flex-wrap ipad:flex-wrap
                                    items-center
                                    content-center
-                                   gap-[32px] md:gap-[312px]
+                                   gap-[32px] lg:gap-[312px] ipad:gap-[227.17px]
                                    flex-shrink-0
+                                 
                                 `}>
-                <div className="headerFotter w-[250.66667px] h-[89.22273px] md:ml-[32px] ">
+                <div className="headerFotter w-[250.66667px] h-[89.22273px] lg:ml-[32px]">
                     <div className="logo flex items-center content-center gap-4 self-stretch flex-wrap">
                         <img className='w-[42px] h-[36.923px] ' src={Logo} alt="Logotipo do Insep" />
                         <img src={InsepLetter} className='w-[98px] h-[26.88px]' alt="Insep" />

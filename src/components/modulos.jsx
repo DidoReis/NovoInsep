@@ -86,9 +86,10 @@ const Modulos = () => {
                                                               leading-[normal]
                                                               tracking-[0.4px]
                                                            `}>
-                                                O módulo básico destina-se a todos os públicos. 
-                                                Aqui você assimilará as regras e os conceitos fundamentais 
-                                                para desenvolver uma ótima base sobre o tema.
+                                                O módulo básico destina-se a todos 
+                                                os públicos. Aqui você assimilará as 
+                                                regras e os conceitos fundamentais para desenvolver 
+                                                uma ótima base sobre o tema.
                                               </p>
                                               <div className="intro 
                                                               w-[312px] 
@@ -121,8 +122,8 @@ const Modulos = () => {
                                                                 font-normal
                                                                 leading-[normal]
                                                                 tracking-[0.15px]
-                                                             `}>Pré-requisitos: Acesso a computador, Ensino Médio 
-                                                  completo e conhecimento básico de Excel. </p>              
+                                                             `}>Pré-requisitos:  Acesso a computador, 
+                                                                Ensino Médio completo e noções básicas de Excel. </p>              
                                               </div>
                                               <div className="button w-[312px] flex flex-col h-[40px] ">
                                                 <button className={`${darkTheme ? "bg-dark-button" : "bg-light-button"}
@@ -177,7 +178,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                            Compreender a classificação das deficiências e suas implicações restritivas
+                                                           Classificação das deficiências e suas implicações restritivas
                                                           </p>
                                                     </div>      
                                                     <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -202,8 +203,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Perceber diferenças elementares entre acessibilidade e usabilidade 
-                                                              em interfaces digitais
+                                                              Diferenças elementares entre acessibilidade e usabilidade em interfaces digitais
                                                           </p>
                                                       </div>        
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -228,7 +228,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Explorar o arcabouço de normas, leis e guias relacionados à acessibilidade
+                                                              Conhecimento das normas, leis e guias relacionados à acessibilidade
                                                           </p>
                                                       </div>
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -253,7 +253,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Conhecer a estrutura da WCAG, níveis de conformidade, princípios e requisitos
+                                                              Conhecimento da estrutura da WCAG, níveis de conformidade, princípios e requisitos
                                                           </p>
                                                       </div>
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -278,7 +278,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Ter noções sobre tecnologias assistivas mais relevantes para testes
+                                                              Noções sobre tecnologias assistivas mais relevantes para testes
                                                           </p>
                                                       </div>
                                               </div>
@@ -286,7 +286,7 @@ const Modulos = () => {
                                     </div>
 
                                     {/* BOX 2 */}
-                                    <div className={`border-solid border-[1px] ${darkTheme ? "border-dark-borderCard" : "border-light-borderCard"}
+                                    <div className={`border-solid border-[1px] ${darkTheme ? /*"border-dark-borderCard"*/ "border-dark-borderCardCurso" : "border-light-borderCardCurso" /*"border-light-borderCard"*/ }
                                                       ${darkTheme ? "bg-dark-secondary" : "bg-light-secondary"}
                                                       Box1
                                                       flex
@@ -321,9 +321,9 @@ const Modulos = () => {
                                                               leading-[normal]
                                                               
                                                            `}>
-                                                    Este módulo tem foco na metodologia de aplicação 
-                                                    da WCAG. Iremos revisitar a norma de uma forma mais 
-                                                    direcionada, abordando informações sobre frameworks de implementação. 
+                                                    Com foco na metodologia de aplicação da WCAG,
+                                                     iremos revisitar a norma de uma forma mais 
+                                                     direcionada, abordando informações sobre frameworks de implementação. 
                                               </p>
                                               <div className="intro 
                                                               w-[312px] 
@@ -356,13 +356,12 @@ const Modulos = () => {
                                                                 font-normal
                                                                 leading-[normal]
                                                                 tracking-[0.15px]
-                                                             `}>Pré-requisitos: Ter concluído o básico ou
-                                                                através de prova de conhecimento específico. </p>              
+                                                             `}>Pré-requisitos: Ter concluído o básico ou através de prova de conhecimento específico.</p>              
                                               </div>
                                               <div className="button w-[312px] flex flex-col h-[40px] ">
-                                                <button className={`${darkTheme ? "bg-dark-button" : "bg-light-button"}
+                                                <button className={`${darkTheme ? /*"bg-dark-button"*/"bg-dark-buttonCurso ": "bg-light-buttonCurso"  /*"bg-light-button"*/}
                                                                     ${darkTheme ? "text-buttonDark" : "text-buttonLight"}
-                                                                    ${darkTheme ? "hover:bg-dark-hoverDark" : "hover:bg-light-hoverLight"}
+                                                                    ${darkTheme ? /*"hover:bg-dark-hoverDark"*/ "hover:bg-light-hoverLight" : "hover:bg-light-hoverLight"}
                                                                     botao
                                                                     flex
                                                                     flex-col
@@ -374,14 +373,23 @@ const Modulos = () => {
                                                                     self-stretch
                                                                   `}
                                                                   aria-label="Tenho interesse em Módulo Intermediário"
-                                                                  ><span className='text-center
+                                                                  >{/* <span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]
                                                                                       not-italic
                                                                                       font-bold
                                                                                       leading-[20px]
                                                                                       tracking-[0.1px]
-                                                                                     '>Tenho interesse</span></button>
+                                                                                     '>Tenho interesse</span> */}
+                                                                                     <span className='text-center
+                                                                                      font-roboto
+                                                                                      text-[16px]
+                                                                                      not-italic
+                                                                                      font-bold
+                                                                                      leading-[20px]
+                                                                                      text-white
+                                                                                      tracking-[0.1px]
+                                                                                     '>Turma aberta 02/11/2023</span></button>
                                               </div>
                                               <div className="boxAprendizado 
                                                               w-[312px] 
@@ -412,7 +420,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                            Entender a metodologia de avaliação de conformidade 
+                                                            Metodologia de avaliação de conformidade com os requisitos de acessibilidade  
                                                           </p>
                                                     </div>      
                                                     <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -437,7 +445,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Conhecer ferramentas de testes de acessibilidade para atendimento de situações específicas
+                                                             Ferramentas de testes de acessibilidade para atendimento de situações específicas
                                                           </p>
                                                       </div>        
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -462,7 +470,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Aprender práticas de mapeamento e reporte de defeitos
+                                                              Práticas de mapeamento e reporte de defeitos
                                                           </p>
                                                       </div>
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -487,7 +495,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Compreender as diferenças entre comportamentos dos componentes de interfaces digitais
+                                                              Diferenças entre comportamentos dos componentes 
                                                           </p>
                                                       </div>
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -512,7 +520,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Aprender sobre configurações mínimas recomendadas para testes (web e mobile)
+                                                              Configurações mínimas recomendadas para testes (web e mobile) 
                                                           </p>
                                                       </div>
                                               </div>
@@ -555,10 +563,9 @@ const Modulos = () => {
                                                               leading-[normal]
                                                               tracking-[0.4px]
                                                            `}>
-                                                  Exclusivo para profissionais que já atuam na 
-                                                  área tech, este módulo é dedicado às boas práticas 
-                                                  para a construção de conteúdos que atendam aos requisitos 
-                                                  de Acessibilidade.
+                                                 Exclusivo para profissionais da área tech, este módulo 
+                                                 é dedicado às boas práticas na construção de conteúdos 
+                                                 que atendam aos requisitos de Acessibilidade.
                                               </p>
                                               <div className="intro 
                                                               w-[312px] 
@@ -591,8 +598,7 @@ const Modulos = () => {
                                                                 font-normal
                                                                 leading-[normal]
                                                                 tracking-[0.15px]
-                                                             `}>Pré-requisitos: Ter concluído o intermediário ou 
-                                                             através de prova de conhecimento específico.</p>              
+                                                             `}>Pré-requisitos: Ter Pré-requisitos:  Ter concluído o intermediário ou através de prova de conhecimento específico.</p>              
                                               </div>
                                               <div className="button w-[312px] flex flex-col h-[40px] ">
                                                 <button className={`${darkTheme ? "bg-dark-button" : "bg-light-button"}
@@ -647,9 +653,9 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                            Aprender sobre ferramentas de verificação da qualidade 
-                                                            do código durante o desenvolvimento -  plataformas Web 
-                                                            (Desktop) e Mobile (nativo/WebView) em Android e iOS
+                                                            Ferramentas de verificação da qualidade do código durante o 
+                                                            desenvolvimento -  plataformas Web (Desktop) e Mobile (nativo/WebView)
+                                                            em Android e iOS
                                                           </p>
                                                     </div>      
                                                     <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -699,7 +705,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Semântica, estado e função dos elementos
+                                                             Semântica, estado e função dos elementos
                                                           </p>
                                                       </div>
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -724,7 +730,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                        `}>
-                                                              Aprender sobre componentes nativos e elementos customizados
+                                                              Componentes nativos e elementos customizados
                                                           </p>
                                                       </div>
                                                       <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -749,7 +755,7 @@ const Modulos = () => {
                                                                         leading-[normal]
                                                                         tracking-[0.25px]
                                                                         `}>
-                                                              Aprofundar em propriedades Wai-Aria e Roles
+                                                              Aprofundamento em propriedades Wai-Aria e Roles
                                                           </p>
                                                       </div>
                                               </div>

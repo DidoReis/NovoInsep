@@ -121,7 +121,7 @@ const Depoimentos = () => {
                 </div>
                 {/* BOX 3 */}
                 <div className={`border-solid border-[1px] border-[#404040]
-                                    w-[358px] md:w-[360px] h-[457 px] p-4 rounded-[8px]`}>
+                                    w-[358px] md:w-[360px] h-[457 px] p-4 rounded-[8px]`}> 
                 <div className="box3 ">
                     <div className="depoimento w-[326px] h-[360px] ">
                     <p className="

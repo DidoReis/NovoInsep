@@ -12,7 +12,7 @@ const Publico = () => {
           w-[360px] md:w-[1128px]
           h-[984px] md:h-[auto]
           flex-shrink-0
-          mt-[48px]
+          mt-[48px] lg:mt-[128px] ipad:mt-[128px]
           
         `}>
           {/* Title */}
@@ -48,11 +48,13 @@ const Publico = () => {
                                               leading-[24px]
                                               tracking-[0.25px]
                                            `}>
-                                Nossos cursos são feitos para pessoas com ou sem deficiência, 
-                                que já atuam ou não na área de tecnologia, e que desejam 
-                                ampliar suas possibilidades profissionais se especializando em 
-                                uma área carente de profissionais éticos e habilitados. Veja alguns 
-                                exemplos de pessoas que estudam conosco:</p>
+                                Nossos cursos são feitos para pessoas
+                                 com ou sem deficiência, que já atuam 
+                                 ou não na área de tecnologia, e que desejam 
+                                 ampliar suas possibilidades profissionais se 
+                                 especializando em uma área carente de profissionais 
+                                 éticos e habilitados. Veja alguns exemplos de pessoas 
+                                 que estudam conosco:</p>
                             </div>
 
                             <div className="w-[312px] md:w-[1061px]
