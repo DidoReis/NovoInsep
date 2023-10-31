@@ -6,7 +6,7 @@ import Hero from "./components/hero";
 import Beneficios from './components/beneficios';
 import Saly from './components/saly';
 import Publico from "./components/publico";
-import Modulos from "./components/modulos";
+import Modulos from "./components/modulosNew";
 import Empresas from './components/empresas';
 import Equipe from './components/equipe';
 import Depoimentos from "./components/depoimentos";

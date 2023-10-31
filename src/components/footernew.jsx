@@ -85,7 +85,7 @@ const Footer = () => {
                                             flex-shrink-0
                                             '>
                                     <div className='lg:w-[141px] lg:h-[32px] items-stretch'>
-                                        <p className='no-ligatures
+                                        <h2 className='no-ligatures
                                                       text-[#E6E1E5]
                                                       font-roboto
                                                       text-[14px]  
@@ -93,7 +93,7 @@ const Footer = () => {
                                                       font-bold
                                                       leading-[normal]
                                                       tracking-[0.1px]
-                                                     '>Nos encontre nas redes sociais</p>
+                                                     '>Nos encontre nas redes sociais</h2> 
                                     </div>
                                     <div className='lg:w-[141px] lg:h-[24.08163px]
                                                     flex
@@ -103,20 +103,20 @@ const Footer = () => {
                                                     self-stretch
                                                     flex-wrap
                                                     '>
-                                                    <a  target='blank' href="https://www.facebook.com/insep.sp"><img className=' w-[25.3px] h-[24.082px] ' src={Facebook} alt="Icone do Facebook" /></a>
-                                                    <a target='blank' href="https://www.instagram.com/insep_sp/"><img className='w-[25.3px] h-[24.082px]' src={Instagram} alt="Icone do Instagram" /></a>
-                                                    <a target='blank' href="https://www.linkedin.com/company/insep/"><img className='w-[25.3px] h-[24.082px]' src={Linkedin} alt="Icone do Linkedin" /></a>
+                                                    <a  target='blank' href="https://www.facebook.com/insep.sp"><img className=' w-[25.3px] h-[24.082px] ' src={Facebook} alt="Facebook" /></a>
+                                                    <a target='blank' href="https://www.instagram.com/insep_sp/"><img className='w-[25.3px] h-[24.082px]' src={Instagram} alt="Instagram" /></a>
+                                                    <a target='blank' href="https://www.linkedin.com/company/insep/"><img className='w-[25.3px] h-[24.082px]' src={Linkedin} alt="Linkedin" /></a>
                                     </div>            
                             </div>
                             {/* Vpat */}
-                            <div className='w-[248px] h-[64px] lg:w-[248px] lg:h-[64px] 
+                            <div className=' w-[248px] h-[64px] lg:w-[248px] lg:h-[64px] 
                                             flex
                                             flex-col
                                             items-start
                                             gap-[8px]
                                             flex-shrink-0
                                             '>
-                                             <p className='no-ligatures
+                                             <h2 className='no-ligatures
                                                            text-[#E6E1E5]
                                                            font-roboto
                                                            text-[14px]
@@ -127,13 +127,13 @@ const Footer = () => {
                                                           '>VPAT®
                                              <br />
                                              <br />   
-                                            Relatório de conformidade de acessibilidade</p>   
+                                           <span className='invisible'>Relatório de conformidade de acessibilidade</span> </h2>   
                                             </div>
                             {/* Endereço */}
                             <div className='lg:w-[246px] lg:h-[76px] '>
                                 <div className='lg:w-[246px] lg:h-[76px] flex flex-col items-start gap-[8px]'>
                                     <div className='lg:w-[246px] lg:h-[16px] self-stretch'>
-                                        <p className='no-ligature
+                                        <h2 className='no-ligature
                                                   text-[#E6E1E5]
                                                   font-roboto
                                                   text-[14px]
@@ -142,7 +142,7 @@ const Footer = () => {
                                                   leading-[normal]
                                                   tracking-[0.1px]
                                                  '>Endereço
-                                        </p>
+                                        </h2>
                                     </div>
                                     <div className='lg:w-[246px] lg:h-[16px] self-stretch'>
                                         <p className='no-ligatures

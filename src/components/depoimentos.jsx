@@ -23,14 +23,14 @@ const Depoimentos = () => {
                                 h-[32px] 
                                 
                             `}>
-                <h1 className="title
+                <h2 className="title
                                              font-roboto
                                              text-[24px]
                                              not-italic
                                              font-medium
                                              leading-[32px]                   
                                              ">O que dizem nossos alunos...
-                </h1>
+                </h2>
             </div>
             <div className={`${darkTheme ? "text-dark" : "text-light"}
                                 w-[358px] md:w-[1128px]

@@ -28,7 +28,7 @@ const Faq = () => {
             `}>
                 
                 <div className="boxTitle w-[98px] md:w-[435px] h-[60px] md:h-[160px]"> 
-                    <h1 className='no-ligatures
+                    <h2 className='no-ligatures
                                    font-roboto
                                    md:ml-[87px] 
                                    text-[28px] md:text-[48px]
@@ -39,7 +39,7 @@ const Faq = () => {
                                    
                                   '>
                         Perguntas frequentes 
-                    </h1>
+                    </h2>
                     <div className="imageQuestion 
                                     items-center
                                     justify-center

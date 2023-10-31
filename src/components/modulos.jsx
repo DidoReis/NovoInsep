@@ -9,11 +9,22 @@ import CheckLight from "../assets/checkLight.svg"
 
 
 const Modulos = () => {
-   const darkTheme = useSelector((state) => state.theme.darkTheme)
+   const darkTheme = useSelector((state) => state.theme.darkTheme);
+
+   const redirectToLink = (link) => {
+    const links = {
+      moduloBasico: "https://api.whatsapp.com/send?phone=551133847284&text=Tenho%20interesse%20no%20treinamento%20m%C3%B3dulo%20B%C3%A1sico",
+      moduloIntermediario: "https://api.whatsapp.com/send?phone=551133847284&text=Tenho%20interesse%20no%20treinamento%20no%20m%C3%B3dulo%20intermedi%C3%A1rio",
+      moduloAvancado: "https://api.whatsapp.com/send?phone=551133847284&text=Tenho%20interesse%20no%20treinamento%20no%20m%C3%B3dulo%20avan%C3%A7ado"
+    };
+    if(links[link]) {
+      window.open(links[link], '_blank');
+    }
+   };
   return (
     <div className={`flex justify-center items-center`}>
         <div className={`${styles.boxWidth} flex items-center justify-center `}>
-            <section className={`${darkTheme ? "bg-dark-primary" : "bg-light-primary"}
+            <section id='modulos' className={`${darkTheme ? "bg-dark-primary" : "bg-light-primary"}
                                 w-[360px] md:w-[1440px]
                                 h-[2148px] md:h-[748px]
                                 flex-shrink-0
@@ -24,7 +35,7 @@ const Modulos = () => {
                                 
                               `}>
                                 <div className="titleBox w-[260px] md:w-[538px] h-[32px] ">
-                                  <h1 className={`${darkTheme ? "text-dark" : "text-light"}
+                                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
                                                   font-roboto
                                                   text-[24px]
                                                   md:ml-[156px]
@@ -32,7 +43,7 @@ const Modulos = () => {
                                                   font-medium
                                                   leading-[32px]
                                                   
-                                               `}>Conteúdo programático</h1>
+                                               `}>Conteúdo programático</h2>
                                 </div>
                                 
                                 {/* BOX MÓDULOS */}
@@ -65,7 +76,7 @@ const Modulos = () => {
                                                       rounded-[24px]
                                                     `}>
                                           <div className="BoxInterno w-[312px] h-[636px] flex flex-col gap-[30px] ">
-                                              <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                                              <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
                                                               w-[177px]
                                                               h-[30px]
@@ -76,7 +87,7 @@ const Modulos = () => {
                                                               not-italic
                                                               leading-[normal]
                                                               tracking-[0.18px]
-                                                            `}>Módulo Básico</h2>
+                                                            `}>Módulo Básico</h3>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
                                                               font-roboto
@@ -140,6 +151,7 @@ const Modulos = () => {
                                                                     self-stretch
                                                                   `}
                                                                   aria-label="Tenho interesse em Módulo Básico"
+                                                                  onClick={() => redirectToLink('moduloBasico')}
                                                                   ><span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]
@@ -300,7 +312,7 @@ const Modulos = () => {
                                                       rounded-[24px]
                                                     `}>
                                           <div className="BoxInterno w-[312px] h-[636px] flex flex-col gap-[30px] ">
-                                              <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                                              <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
                                                               w-[312px]
                                                               h-[30px]
@@ -311,7 +323,7 @@ const Modulos = () => {
                                                               not-italic
                                                               leading-[normal]
                                                               tracking-[0.18px]
-                                                            `}>Módulo Intermediário</h2>
+                                                            `}>Módulo Intermediário</h3>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
                                                               font-roboto
@@ -373,6 +385,7 @@ const Modulos = () => {
                                                                     self-stretch
                                                                   `}
                                                                   aria-label="Tenho interesse em Módulo Intermediário"
+                                                                  onClick={() => redirectToLink('moduloIntermediario')}
                                                                   >{/* <span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]
@@ -542,7 +555,7 @@ const Modulos = () => {
                                                       rounded-[24px]
                                                     `}>
                                         <div className="BoxInterno w-[312px] h-[636px] flex flex-col gap-[30px] ">
-                                              <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                                              <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
                                                               w-[312px]
                                                               h-[30px]
@@ -553,7 +566,7 @@ const Modulos = () => {
                                                               not-italic
                                                               leading-[normal]
                                                               tracking-[0.18px]
-                                                            `}>Módulo Avançado</h2>
+                                                            `}>Módulo Avançado</h3>
                                               <p className={`${darkTheme ? "text-dark" : "text-light"}
                                                               no-ligatures
                                                               font-roboto
@@ -615,6 +628,7 @@ const Modulos = () => {
                                                                     self-stretch
                                                                   `}
                                                                   aria-label="Tenho interesse em Módulo Avançado"
+                                                                  onClick={() => redirectToLink('moduloAvancado')}
                                                                   ><span className='text-center
                                                                                       font-roboto
                                                                                       text-[16px]

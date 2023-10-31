@@ -2,9 +2,10 @@ import {BiSolidDownArrow} from "react-icons/bi"
 
 import { motion, AnimatePresence } from "framer-motion"
 import { useState } from "react"
-import styles from "../styles"
+
 import { useSelector } from "react-redux"
 
+// eslint-disable-next-line react/prop-types
 const Accordion = ({ question, answer}) => {
   const darkTheme = useSelector((state) => state.theme.darkTheme);
   const [show, setShow] = useState(false);

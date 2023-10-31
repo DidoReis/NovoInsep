@@ -61,13 +61,13 @@ const Footer = () => {
                     h-[18px]
                     
                     ">
-                        <h1 className='font-roboto
+                        <h2 className='font-roboto
                                        text-[12px]
                                        not-italic
                                        font-bold
                                        leading-[normal]
                                        text-white
-                                      '>Nos encontre nas redes sociais</h1>
+                                      '>Nos encontre nas redes sociais</h2>
                     </div>
                     <div className={`iconBox 
                                     ${darkTheme}
@@ -79,9 +79,9 @@ const Footer = () => {
                                     w-[170px]
                                     h-[24.082px]
                                     `}>
-                                        <a  target='blank' href="https://www.facebook.com/insep.sp"><img className=' w-[25.3px] h-[24.082px] ' src={Facebook} alt="Icone do Facebook" /></a>
-                                        <a target='blank' href="https://www.instagram.com/insep_sp/"><img className='w-[25.3px] h-[24.082px]' src={Instagram} alt="Icone do Instagram" /></a>
-                                        <a target='blank' href="https://www.linkedin.com/company/insep/"><img className='w-[25.3px] h-[24.082px]' src={Linkedin} alt="Icone do Linkedin" /></a>
+                                        <a  target='blank' href="https://www.facebook.com/insep.sp"><img className=' w-[25.3px] h-[24.082px] ' src={Facebook} alt="Facebook" /></a>
+                                        <a target='blank' href="https://www.instagram.com/insep_sp/"><img className='w-[25.3px] h-[24.082px]' src={Instagram} alt="Instagram" /></a>
+                                        <a target='blank' href="https://www.linkedin.com/company/insep/"><img className='w-[25.3px] h-[24.082px]' src={Linkedin} alt="Linkedin" /></a>
                     </div>
                 </div>
                 <div className="endereco 

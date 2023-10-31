@@ -26,7 +26,7 @@ const Hero = () => {
                             md:flex-row-reverse
                            `}>
                             <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 md:absolute" tabIndex={1}>
-                            <a target='blank' href="https://web.whatsapp.com/" title="site externo"><img src={WhatsApp} alt="WhatsApp" /></a>
+                            <a target='blank' href="https://api.whatsapp.com/send?phone=551133847284" title="site externo"><img src={WhatsApp} alt="WhatsApp" /></a>
                             <button tabIndex={2}><VLibras  forceOnload={true}/></button>
                 </div>
                 <div className="bomImg 

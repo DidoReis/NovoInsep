@@ -35,7 +35,7 @@ const Equipe = () => {
                                ` } 
         >
           <div className="TitleBox w-[318.36017px] ">
-            <h1
+            <h2
               className={`${darkTheme ? "text-dark" : "text-light"}
                                  font-roboto
                                  text-[24px]
@@ -44,7 +44,7 @@ const Equipe = () => {
                                  leading-[32px]   
                                 `}
             >Equipe Insep
-            </h1>
+            </h2>
           </div>
           {/* Box Interna */}
           <div className="internBox 

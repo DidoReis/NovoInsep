@@ -23,7 +23,7 @@ const Beneficios = () => {
               
             `}>
             
-                <h1 className={`${darkTheme ? "text-dark" : "text-light"}
+                <h2 className={`${darkTheme ? "text-dark" : "text-light"}
                  flex
                  w-[286px] lg:w-[446px] ipad:w-[446px] ipadV:w-[446px]
                  h-[64.06px] lg:h-[27.93349px] ipad:h-[27.93349px] ipadV:h-[27.93349px]
@@ -40,7 +40,7 @@ const Beneficios = () => {
                  
                  `
                 }
-               >O Insep te oferece benefícios únicos</h1>
+               >O Insep te oferece benefícios únicos</h2>
                
                <div className="
                w-[358px] lg:w-[1128px] ipad:w-[1128px] ipadV:w-[748px]
@@ -71,7 +71,7 @@ const Beneficios = () => {
                   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08)
                 `}>
                   
-                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                  <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                   font-roboto
                   text-[14px]
                   not-italic
@@ -80,7 +80,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}>ExceLÊNCIA TéCNICA E profissional</h2>
+                  `}>Excelência técnica e profissional</h3>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]
@@ -112,7 +112,7 @@ const Beneficios = () => {
                   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
                 `}>
                   
-                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                  <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                   font-roboto
                   text-[14px]
                   not-italic
@@ -121,7 +121,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}>Turmas Inclusivas</h2>
+                  `}>Turmas Inclusivas</h3>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]
@@ -153,7 +153,7 @@ const Beneficios = () => {
                   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
                 `}>
                   
-                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                  <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                   font-roboto
                   text-[14px]
                   not-italic
@@ -162,7 +162,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}>AULAS virtuais E AO VIVO</h2>
+                  `}>AULAS virtuais E AO VIVO</h3>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]
@@ -194,7 +194,7 @@ const Beneficios = () => {
                   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
                 `}>
                   
-                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                  <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                   font-roboto
                   text-[14px]
                   not-italic
@@ -203,7 +203,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}>APRENDIZADO PRÁTICO</h2>
+                  `}>APRENDIZADO PRÁTICO</h3>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]
@@ -235,7 +235,7 @@ const Beneficios = () => {
                   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
                 `}>
                   
-                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                  <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                   font-roboto
                   text-[14px]
                   not-italic
@@ -244,7 +244,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}>Responsabilidade social e ética</h2>
+                  `}>Responsabilidade social e ética</h3>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]
@@ -277,7 +277,7 @@ const Beneficios = () => {
                   box-shadow: 0px 4px 6px -2px rgba(16, 24, 40, 0.03), 0px 12px 16px -4px rgba(16, 24, 40, 0.08);
                 `}>
                   
-                  <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                  <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                   font-roboto
                   text-[14px]
                   not-italic
@@ -286,7 +286,7 @@ const Beneficios = () => {
                   mb-[8px]
                   tracking-[0.35px]
                   uppercase
-                  `}>Apoio de carreira</h2>
+                  `}>Apoio de carreira</h3>
                   <div className={`${darkTheme ? "text-dark" : "text-light"}
                     w-[100%]
                     h-[auto]

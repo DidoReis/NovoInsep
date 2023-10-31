@@ -13,7 +13,7 @@ const DarkLightButton = () => {
   return (
     <svg
       role='button'
-      aria-label='modo escuro ou modo claro'
+      aria-label={darkTheme ? 'alternar para modo claro' : ' alternar para modo escuro'} // Altera o aria-label com base no tema atual
       xmlns="http://www.w3.org/2000/svg"
       width="46"
       height="28"

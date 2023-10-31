@@ -41,7 +41,7 @@ const Empresas = () => {
                                     w-[360px] md:w-[1440px]
                                     h-[654px] md:h-[459.26483px]
                                     flex-shrink-0
-                                    
+                                    md:mb-[128px]
                                     mt-[48px] md:mt-[128px]
                                `}>
                 <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -51,12 +51,12 @@ const Empresas = () => {
                                 md:ml-[156px]
                                 md:mb-[60px]
                                 
-                               `}><h1 className='font-roboto 
+                               `}><h2 className='font-roboto 
                                                  text-[24px] 
                                                  not-italic 
                                                  font-medium 
                                                  leading-[32px]'
-                                    >Onde nossos alunos trabalham</h1>
+                                    >Onde nossos alunos trabalham</h2>
                 </div>
                 <div className={`${darkTheme ? "text-dark" : "text-light" } 
                                 empresas
@@ -104,7 +104,8 @@ const Empresas = () => {
                                h-[67px] md:h-[101.163px]
                                md:ml-[145px]
                                md:mb-[33.84px]
-                               flex-shrink-0'/>
+                               flex-shrink-0
+                               md:mb-[80px]'/>
                     <img 
                     src={darkTheme ? PortoDark : PortoLight} 
                     alt="Porto Seguro" 
@@ -112,10 +113,11 @@ const Empresas = () => {
                                h-[87px] md:h-[120.876px]
                                md:ml-[185px]
                                md:mb-[45.12px]
-                               flex-shrink-0'/>
+                               flex-shrink-0
+                               md:mb-[80px]'/>
                     <img 
                     src={darkTheme ? BradescoDark : BradescoLight} 
-                    alt="do Bradesco" 
+                    alt="Bradesco" 
                     className='w-[179px] md:w-[238px]
                                h-[34px] md:h-[44.698px]
                                md:mb-[115.3px]
@@ -126,24 +128,27 @@ const Empresas = () => {
                     className='w-[97px] md:w-[140px]
                                h-[51px] md:h-[73.985px]
                                md:ml-[130px]
-                               flex-shrink-0'/>
+                               flex-shrink-0
+                               md:mb-[80px]'/>
                     <img 
                     src={darkTheme ? PwcDark : PwcLight} 
                     alt="Pwc" 
                     className='w-[107px] md:w-[150px]
                                h-[81px] md:h-[113px]
                                md:ml-[150px]
-                               flex-shrink-0'/>
+                               flex-shrink-0
+                               md:mb-[90px]'/>
                     <img 
                     src={darkTheme ? SerasaDark : SerasaLight} 
                     alt="Serasa Experian" 
                     className='w-[142px] md:w-[200px]
                                h-[61px] md:h-[86px]
                                md:ml-[120px]
-                               flex-shrink-0'/>
+                               flex-shrink-0
+                               md:mb-[80px]'/>
                     <img 
                     src={darkTheme ? DrogasilDark : DrogasilLight} 
-                    alt="Farmácia Drogasil" 
+                    alt="Drogasil" 
                     className='w-[161px] md:w-[238px]
                                h-[31px] md:h-[45.773px]
                                

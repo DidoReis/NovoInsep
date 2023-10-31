@@ -17,12 +17,12 @@ const Publico = () => {
         `}>
           {/* Title */}
           <div className="title w-[fixed] h-[]fixed mb-[32px]">
-            <h1 className={`${darkTheme ? "text-dark" : "text-light"}
+            <h2 className={`${darkTheme ? "text-dark" : "text-light"}
                           font-roboto text-[24px] not-italic font-medium leading-[32px]
                           
                           `}>
               Público de interesse
-            </h1>
+            </h2>
           </div>
            
            {/* Box Interesse */}
