@@ -21,15 +21,15 @@ const Accordion = ({ question, answer}) => {
       md:items-center
       self-stretch
       gap-[36px]'>
-      <h1 className='w-[282px] md:w-[644px]
+      <h3 className='w-[282px] md:w-[644px]
                      h-[auto] md:h-[24px]
                      font-roboto
                      text-[16px]
                      not-italic
                      font-bold
                      leading-[24px]
-                     
-                     tracking-[0.5px]'>{question}</h1>
+                     role="button"
+                     tracking-[0.5px]'>{question}</h3>
       <BiSolidDownArrow className={`text-[15px] text-[#FEAC39] transition-all duration-500 ${show ? "rotate-180" : ""}`}/>
     </div>
     <div className={`${darkTheme ? "bg-dark-divider" : "bg-light-divider"}

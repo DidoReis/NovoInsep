@@ -83,7 +83,7 @@ const Modulos = () => {
                                 `}>
                                     {/* Title */}
                     <div className="title w-[177px] h-[28px] flex items-start ">
-                        <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                        <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                                             no-ligatures
                                             font-roboto
                                             text-[24px]
@@ -91,7 +91,7 @@ const Modulos = () => {
                                             font-normal
                                             leading-[normal]
                                             tracking-[0.18px]
-                                        `}>Módulo Básico</h2>
+                                        `}>Módulo Básico</h3>
                     </div>
                     {/* Descrição do módulo */}
                         <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -119,14 +119,14 @@ const Modulos = () => {
                                          gap-[8px]
                                          self-stretch
                                         `}>
-                                <h3 className="no ligatures
+                                <h4 className="no ligatures
                                                font-roboto
                                                text-[14px]
                                                not-italic
                                                font-semibold
                                                leading-[normal]
                                                tracking-[0.25px]
-                                               ">Carga horária: 30 horas</h3>
+                                               ">Carga horária: 30 horas</h4>
                                 <p className="no-ligatures
                                               font-roboto
                                               text-[14px]
@@ -247,7 +247,7 @@ const Modulos = () => {
                                     mb-[16px]
                                 `}>
                     <div className="title w-[317px] h-[28px] flex items-start ">
-                        <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                        <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                                             no-ligatures
                                             font-roboto
                                             text-[24px]
@@ -255,7 +255,7 @@ const Modulos = () => {
                                             font-normal
                                             leading-[normal]
                                             tracking-[0.18px]
-                                        `}>Módulo Intermediário</h2>
+                                        `}>Módulo Intermediário</h3>
                     </div>  
                     {/* Descrição do módulo */}
                     <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -283,14 +283,14 @@ const Modulos = () => {
                                          gap-[8px]
                                          self-stretch
                                         `}>
-                                <h3 className="no ligatures
+                                <h4 className="no ligatures
                                                font-roboto
                                                text-[14px]
                                                not-italic
                                                font-semibold
                                                leading-[normal]
                                                tracking-[0.25px]
-                                               ">Carga horária: 30 horas</h3>
+                                               ">Carga horária: 30 horas</h4>
                                 <p className="no-ligatures
                                               font-roboto
                                               text-[14px]
@@ -384,7 +384,7 @@ const Modulos = () => {
                                                                     gap-[10px]
                                                                     self-stretch
                                                                   `}
-                                                                  aria-label="Tenho interesse em Módulo Básico"
+                                                                  aria-label="Tenho interesse em Módulo Intermediário"
                                                                   onClick={() => redirectToLink('moduloIntermediario')}
                                                                   ><span className='text-center
                                                                                       font-roboto
@@ -411,7 +411,7 @@ const Modulos = () => {
                                     gap-[30px]
                                 `}>
                     <div className="title w-[317px] h-[28px] flex items-start ">
-                        <h2 className={`${darkTheme ? "text-dark" : "text-light"}
+                        <h3 className={`${darkTheme ? "text-dark" : "text-light"}
                                             no-ligatures
                                             font-roboto
                                             text-[24px]
@@ -419,7 +419,7 @@ const Modulos = () => {
                                             font-normal
                                             leading-[normal]
                                             tracking-[0.18px]
-                                        `}>Módulo Avançado</h2>
+                                        `}>Módulo Avançado</h3>
                     </div>               
                      {/* Descrição do módulo */}
                     <div className={`${darkTheme ? "text-dark" : "text-light"}
@@ -447,14 +447,14 @@ const Modulos = () => {
                                          gap-[8px]
                                          self-stretch
                                         `}>
-                                <h3 className="no ligatures
+                                <h4 className="no ligatures
                                                font-roboto
                                                text-[14px]
                                                not-italic
                                                font-semibold
                                                leading-[normal]
                                                tracking-[0.25px]
-                                               ">Carga horária: 30 horas</h3>
+                                               ">Carga horária: 30 horas</h4>
                                 <p className="no-ligatures
                                               font-roboto
                                               text-[14px]
@@ -549,7 +549,7 @@ const Modulos = () => {
                                                                     gap-[10px]
                                                                     self-stretch
                                                                   `}
-                                                                  aria-label="Tenho interesse em Módulo Básico"
+                                                                  aria-label="Tenho interesse em Módulo Avançado"
                                                                   onClick={() => redirectToLink('moduloAvancado')}
                                                                   ><span className='text-center
                                                                                       font-roboto
