@@ -68,7 +68,7 @@ const Modulos = () => {
                                                       flex
                                                       flex-col
                                                       w-[360px] md:w-[364.66669px]
-                                                      h-[684px]
+                                                      h-[684px] 
                                                       p-[24px]
                                                       items-start
                                                      

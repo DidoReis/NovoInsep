@@ -4,7 +4,7 @@ export const navLinks = [
       title: "Quem somos",
     }, */
     {
-      id: "cursos",
+      id: "modulos",
       title: "Cursos",
     },
     /*{

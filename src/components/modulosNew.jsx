@@ -73,7 +73,7 @@ const Modulos = () => {
                                  : "border-light-borderCardCurso" /*"border-light-borderCard"*/}
                                     rounded-[24px]
                                     w-[360px] md:w-[364.66666px]
-                                    h-[684px] md:h-[612px]
+                                    h-[614px] md:h-[612px]
                                     flex
                                     p-[24px]
                                     flex-col

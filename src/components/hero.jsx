@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import VLibras from '@djpfs/react-vlibras';
+/* import VLibras from '@djpfs/react-vlibras'; */
+
 
 import styles from '../styles'
 import {  useSelector } from 'react-redux'
@@ -11,7 +12,9 @@ import SmileLight from "../assets/smileLight.png"
 import WhatsApp from "../assets/whatsapp.svg"
 
 const Hero = () => {
-  const darkTheme = useSelector((state) => state.theme.darkTheme)
+  const darkTheme = useSelector((state) => state.theme.darkTheme);
+  
+  
   return (
     <div className={`flex justify-center items-center`}>
         <div className={`${styles.boxWidth} flex items-center justify-center `}>
@@ -27,7 +30,7 @@ const Hero = () => {
                            `}>
                             <div className="whatsappIcon w-10 h-10 xxs:ml-[318px] md:mt-[35px] xs:ml-[338px] mt:0 md:mr-8 md:absolute" tabIndex={1}>
                             <a target='blank' href="https://api.whatsapp.com/send?phone=551133847284" title="site externo"><img src={WhatsApp} alt="WhatsApp" /></a>
-                            <button tabIndex={2}><VLibras  forceOnload={true}/></button>
+                            {/* <button tabIndex={2}><VLibras  forceOnload={true}/></button> */}
                 </div>
                 <div className="bomImg 
                                 w-[357px] md:w-[943px]
@@ -110,7 +113,7 @@ const Hero = () => {
                                  irá te ajudar a tornar-se um especialista em  garantia 
                                  da conformidade e qualidade dos ambientes digitais para 
                                  Pessoa com Deficiência.</p>
-                    <button className={`${darkTheme ? "bg-dark-button" : "bg-light-button"}
+                    <button  className={`${darkTheme ? "bg-dark-button" : "bg-light-button"}
                                         ${darkTheme ? "hover:bg-dark-hoverDark" : "hover:bg-light-hoverLight"}
                                        w-[118px] 
                                        h-[44px]
@@ -127,17 +130,17 @@ const Hero = () => {
                                        `
                                       }
                                       aria-label="Saiba mais sobre nosso conteúdo programático"
-                                      ><span className={`${darkTheme ? "text-buttonDark" : "text-buttonLight"}
-                                                          text-center
-                                                          font-roboto
-                                                          text-[14px]
-                                                          not-italic
-                                                          font-medium
-                                                          leading-[20px]
-                                                          `}
-                                          
-                                          
-                                       >Saiba mais</span>
+                                      ><a href="#modulos"><span className={`${darkTheme ? "text-buttonDark" : "text-buttonLight"}
+                                      text-center
+                                      font-roboto
+                                      text-[14px]
+                                      not-italic
+                                      font-medium
+                                      leading-[20px]
+                                      `}
+                      
+                      
+                   >Saiba mais</span></a>
                     </button>              
                 </div>           
             </div>                

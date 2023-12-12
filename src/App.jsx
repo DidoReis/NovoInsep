@@ -10,7 +10,7 @@ import Modulos from "./components/modulosNew";
 import Empresas from './components/empresas';
 import Equipe from './components/equipe';
 import Depoimentos from "./components/depoimentos";
-import Faq from "./components/faq";
+import Faq from "./components/faq2";
 import Footer from "./components/footernew";
 
 
