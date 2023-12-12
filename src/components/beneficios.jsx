@@ -10,7 +10,7 @@ const Beneficios = () => {
         <div className={`${styles.boxWidth} flex items-center justify-center `}>
             <section className={`${darkTheme ? "bg-dark-secondary" : "bg-light-secondary"}
               benefBox 
-              
+              mt-[48px]
               inline-flex
               flex-col lg:flex-col
               w-[390px] lg:w-[1440px] ipad:w-[1194px] ipadV:w-[836px]
