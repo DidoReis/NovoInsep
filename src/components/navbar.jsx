@@ -218,7 +218,7 @@ const Navbar = () => {
                                 tracking-[0.15px]
                                 no-ligatures
                                 text-white
-                                " href="#">WhatsApp</a>
+                                " href="https://api.whatsapp.com/send?phone=551133847284">WhatsApp</a>
                 </li>
                 <div className="border-solid border-b-[1px] border-[#938F99] w-[290px]"></div>
               </ul>
